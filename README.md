@@ -2,7 +2,33 @@
 
 ## Overview
 
-This comprehensive Jupyter notebook implements and demonstrates classical **Dynamic Programming (DP)** algorithms for solving Markov Decision Processes (MDPs). The lab covers both the theory and practical implementation of policy evaluation, policy improvement, policy iteration, and value iteration on custom and standard environments.
+This comprehensive Jupyter notebook implements and demonstrates classical **Dynamic Programming (DP)** algorithms for solving Markov Decision Processes (MDPs). The lab covers both the theory and practical implementation of core DP algorithms including policy evaluation, policy improvement, policy iteration, and value iteration.
+
+---
+
+## Setup
+
+### Prerequisites
+- Python 3.8 or higher
+- pip (Python package manager)
+
+### Installation
+
+1. Clone or download this repository:
+```bash
+git clone https://github.com/rvallaboju/MSDS684_Week-2--Lab-2.git
+cd MSDS684_Week-2--Lab-2
+```
+
+2. Install required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Launch Jupyter Notebook:
+```bash
+jupyter notebook
+```
 
 ---
 
@@ -76,3 +102,4 @@ This comprehensive Jupyter notebook implements and demonstrates classical **Dyna
 ```python
 policy_evaluation_sync()      # Synchronous (two-array method)
 policy_evaluation_inplace()   # In-place (single-array method)
+```
